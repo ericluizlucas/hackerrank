@@ -17,11 +17,19 @@
 
 // All input times are valid
 
+//      Example:
+
+// s = '12:01:00PM"
+// Return '12:01:00'.
+
+// s = '12:01:00AM"
+// Return '00:01:00'.
+
 class Result
 {
     public static string timeConversion(string s)
     {
-        return DateTime.Parse(s).ToString("H:mm:ss");
+        return DateTime.Parse(s).ToString("HH:mm:ss");
     }
 }
 
@@ -29,7 +37,7 @@ class Solution
 {
     public static void Main(string[] args)
     {
-        string s = "07:05:45PM";
+        string s = "07:05:45AM";
 
         string result = Result.timeConversion(s);
         Console.WriteLine(result);
