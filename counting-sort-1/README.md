@@ -15,12 +15,12 @@ arr = [1,1,3,2,1]
 
 All of the values are in the range [0...3], so create an array of zeros, result = [0,0,0,0]. The results of each iteration follow:
 
-i   arr[i]   result<br/>
-0   1       [0, 1, 0, 0]<br/>
-1   1       [0, 2, 0, 0]<br/>
-2   3       [0, 2, 0, 1]<br/>
-3   2       [0, 2, 1, 1]<br/>
-4   1       [0, 3, 1, 1]<br/>
+i&emsp;arr[i]&emsp;&emsp;result<br/>
+0&emsp;1&emsp;&emsp;[0, 1, 0, 0]<br/>
+1&emsp;1&emsp;&emsp;[0, 2, 0, 0]<br/>
+2&emsp;3&emsp;&emsp;[0, 2, 0, 1]<br/>
+3&emsp;2&emsp;&emsp;[0, 2, 1, 1]<br/>
+4&emsp;1&emsp;&emsp;[0, 3, 1, 1]<br/>
 
 The frequency array is [0,3,1,1]. These values can be used to create the sorted array as well: sorted = [1,1,1,2,3].
 
