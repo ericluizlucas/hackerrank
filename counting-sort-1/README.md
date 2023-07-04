@@ -15,12 +15,12 @@ arr = [1,1,3,2,1]
 
 All of the values are in the range [0...3], so create an array of zeros, result = [0,0,0,0]. The results of each iteration follow:
 
-i	arr[i]	result
-0	1	    [0, 1, 0, 0]
-1	1	    [0, 2, 0, 0]
-2	3	    [0, 2, 0, 1]
-3	2	    [0, 2, 1, 1]
-4	1	    [0, 3, 1, 1]
+i   arr[i]   result<br/>
+0   1       [0, 1, 0, 0]<br/>
+1   1       [0, 2, 0, 0]<br/>
+2   3       [0, 2, 0, 1]<br/>
+3   2       [0, 2, 1, 1]<br/>
+4   1       [0, 3, 1, 1]<br/>
 
 The frequency array is [0,3,1,1]. These values can be used to create the sorted array as well: sorted = [1,1,1,2,3].
 
@@ -48,6 +48,6 @@ Each of the next n lines contains an integer arr[i] where 0 <= i < n.
 
 ### Constraints
 
-100 <= n <= 10⁶
+100 <= n <= 10⁶<br/>
 0 <= arr[i] < 100
 
